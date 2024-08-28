@@ -1,0 +1,123 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#con{
+width: 25%;
+height: 570px;
+margin-left: 550px;
+margin-top: 50px;
+border-radius:10px ;
+background-color: rgb(16, 18, 40);
+}
+.firstline{
+    width: 100%;
+    height: 50px;
+    padding-bottom: 10px;
+}
+.firstline img {
+    width: 20px;
+    padding: 7px;
+}
+.firstline span{
+    font-size: 17px;
+    color: white;
+    position: relative;
+    top: -12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.firstline .minus{
+float: right;
+margin: 5px;
+text-align: right;
+}
+.firstline .minus .fa-solid{
+    color:white;
+    padding-left: 20px;
+}
+.firstline .minus .fa-regular{
+    color:white;
+    padding-left: 20px;
+
+}
+.fa-window-minimize{
+    position: relative;
+    top: -5px;
+}
+
+
+.secondline .fa-solid  {
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+}
+.secondline span{
+    font-size: 28px;
+    color: white;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.fa-repeat{
+    margin-left: 120px;
+}
+input {
+    border:3px solid white;
+    background-color: rgb(16, 18, 40);
+    margin-top: 20px;
+
+    width: 96.6%;
+    height: 50px;
+    margin-left: 2px;
+    border-radius: 5px;
+
+}
+input::placeholder{
+    font-size: 50px;
+    position: relative;
+    top: 15px;
+    color: white;
+    text-align: right;
+}
+.thirdline{
+    margin-top: 10px;
+    height: 50px;
+    padding-top: 10px;
+
+}
+.thirdline span {
+    padding: auto;
+    font-size: 20px;
+    padding-left: 25px;
+    font-weight: bolder;
+    color: white;
+}
+.firstbtn{
+    margin-left: 6px;
+}
+button {
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 20px ;
+    background-color: rgb(41, 43, 71);
+    color:white;
+}
+
+.fa-divide{
+    padding-top: 6px;
+}
+.num{
+    padding-left:45px; 
+}
+.firstbtn1{
+    margin-left: 6px;
+    padding-right:45px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,227 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-image: url(Slice\ 1gerg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav div {
+  padding: 10px 30px 10px 30px;
+}
+.nav .Home {
+  margin-left: 200px;
+  border: 2px solid goldenrod;
+}
+.nav .Let {
+  border: 2px solid goldenrod;
+}
+.nav .logo img {
+  width: 140px;
+  height: 140px;
+}
+.nav .logo span {
+  position: relative;
+  top: -50px;
+  font-size: 35px;
+  color: goldenrod;
+}
+
+.cont {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  justify-content: space-between;
+  height: 800px;
+}
+.cont div {
+  height: 700px;
+  width: 100%;
+}
+.right div {
+  background-color: goldenrod;
+  width: 500px;
+  height: 500px;
+  margin-left: 200px;
+  margin-top: 50px;
+  border-top-left-radius: 300px;
+  border-bottom-right-radius: 300px;
+}
+.right div img {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  top: -100px;
+}
+.left div {
+  margin-left: 40px;
+  margin-top: 100px;
+}
+.left div .Social {
+  font-size: 45px;
+  color: goldenrod;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+
+.left div .From {
+  font-size: 45px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  margin-top: -15px;
+}
+
+.left div .Create {
+  font-size: 25px;
+  margin-top: 40px;
+  color: white;
+}
+.left div .Contact {
+  font-size: 25px;
+  color: white;
+}
+.left div button {
+  background-color: goldenrod;
+  padding: 10px 30px 10px 30px;
+  border: none;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800;
+  font-size: 20px;
+  border-radius: 20px;
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 1450px) {
+  .nav .Home {
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width: 1332px) {
+  .nav .Home {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 1237px) {
+  .nav {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 538px) {
+  .nav {
+    flex-direction: row;
+  }
+  .nav .logo img {
+    width: 170px;
+    height: 170px;
+  }
+  .nav .logo span {
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 1069px) {
+  .right div {
+    margin-left: 100px;
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 969px) {
+  .cont {
+    flex-direction: column;
+    width: auto;
+  }
+
+  .left div {
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -100px;
+  }
+  .left p {
+    margin-left: 100px;
+  }
+  body {
+    height: 1600px;
+  }
+  .right div {
+    margin-left: 200px;
+    margin-top: -50px;
+  }
+}
+
+@media screen and (max-width: 701px) {
+  .left div {
+    margin-top: -100px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+  .left p {
+    justify-content: center;
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 715px) {
+  .right div {
+    margin-left: 100px;
+    margin-top: 50px;
+    border-top-left-radius: 300px;
+    border-bottom-right-radius: 300px;
+  }
+  .right div img {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: -100px;
+  }
+}
+
+@media screen and (max-width: 616px) {
+  .right div {
+    margin-left: 170px;
+    margin-top: -60px;
+    width: 300px;
+    height: 300px;
+  }
+  .right div img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: -60px;
+  }
+  body {
+    height: 1300px;
+  }
+}
+
+@media screen and (max-width: 538px) {
+  .right div {
+    margin-left: 100px;
+    margin-top: -60px;
+    width: 300px;
+    height: 300px;
+  }
+  .right div img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: -60px;
+  }
+}
